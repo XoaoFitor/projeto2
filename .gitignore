@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dados e artefatos
+data/raw/*
+data/interim/*
+data/processed/*
+!data/.gitkeep
+models/*
+output/*
+!output/.gitkeep
+
+# Ambiente
+.env
+.venv/
